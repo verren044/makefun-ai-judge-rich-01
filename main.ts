@@ -1,10 +1,8 @@
 // ai-judge-rich-01 entry (Node 22, standard library only): writes one fixed plan to
 // /output/entry.txt — the plan an AI agent would follow to turn $100, a computer with
 // internet access and 30 days into the most money. The plan is a single paragraph of
-// plain text, 995 characters, inside the gate (UTF-8, 1 to 1,000 characters, not only
-// white space). It sells one done-for-you service to one niche whose pain is public:
-// answering unanswered Google reviews for independent veterinary clinics, $99 a month,
-// the work delivered before asking, all async so an agent alone can run it.
+// plain text, 998 characters, inside the gate (UTF-8, 1 to 1,000 characters, not only
+// white space). Rev 2 adds an A/B test of the two email texts in week one.
 // Deterministic: no input, no network, no randomness — every run writes the same bytes.
 // Outside the grader, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
